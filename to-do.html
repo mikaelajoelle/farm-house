@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+<title>Things to Do</title>
+<link rel="stylesheet" href="styles/styles.css">
+<link rel="stylesheet" href="styles/slick-theme.css">
+<link rel="stylesheet" href="styles/slick.css">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/favicon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/favicon/favicon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/favicon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="images/favicon/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/favicon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="images/favicon/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/favicon/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="images/favicon/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="images/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="images/favicon/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+</head>
+
+<body>
+    
+    <header>
+
+        <!-- Responsive Horizontal Sliding Menu -->
+    
+        <div class="menu">
+            <a href="index.html"><img id="favicon" src="images/mr-logo-outline.png" alt="company logo with white and black outlines"></a>
+            <span></span>
+        </div>
+    
+        <!-- Navigationbar -->
+    
+        <nav class="navbar-menu">
+            <a href="index.html"><img id="favicon-white" src="images/mr-logo-white.png" alt="company logo in white"></a>
+            <ul class="nav-ul">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="visit.html">Plan Your Visit</a></li>
+                <li><a href="animals.html">Meet the Animals</a></li>
+                <li><a href="to-do.html">Things to Do</a></li>
+            </ul>
+
+        </nav>
+
+         <!-- "image-banner-sub" for pages that are not index &
+              "banner-text-sub" for pages that are not index -->
+
+    <div class="image-banner-sub">
+        <img src="images/horse-banner.jpg" alt="horse banner">
+        <div class="banner-text-sub">
+            <h1>Things to Do</h1>
+        </div>
+            
+    </div>
+
+    </header>
+
+        <main>
+            
+            <section id="farm-tour" class="to-do-intro one-col">
+                <h2>Farm Tour</h2>
+                <p>At the Farm House we offer various activities which allow you to get to know our many residents. Our goal is for you to develop a bond with our animals and hopefully learn a little bit about them. All of our residents have a unique story, and they are all special in their own way. Book a tour with us today to enjoy the full Farm House experience. Our residents can't wait to meet you!</p>
+            </section>
+            
+            <div id="tour-form" class="booking-form">
+                <section class="form-content">
+                    <div class="form-header">
+                        <h2>Book Your Tour</h2>
+                    </div>
+                    <div class="flex-form">
+                        <div class="form-left tour-left">
+
+                            <div class="form-row name">
+                                <label class="sub" for="name">Name:</label>
+                                <input type="text" id="name" name="name">
+                            </div><!-- end form-row -->
+
+                            <div class="form-row email">
+                                <label class="sub" for="email">Email:</label>
+                                <input type="email" id="email" name="email">
+                            </div><!-- end form-row -->
+
+                            <div class="form-row phone">
+                                <label class="sub" for="phone">Phone Number:</label>
+                                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                            </div><!-- end form-row -->
+
+                            <div class="form-row date">
+                                <label for="date" id="pick-date">Pick a Date:</label>
+                                <input type="date" id="date" name="date">
+                            </div><!-- end form-row -->
+
+                            <div class="form-group time-group">
+                                <label class="sub" for="time">Pick a Time:</label>
+                                <select name="time" id="time">
+                                    <option value="nine-am">9:00AM</option>
+                                    <option value="ten-am">10:00AM</option>
+                                    <option value="eleven-am">11:00AM</option>
+                                    <option value="one-pm">1:00PM</option>
+                                    <option value="two-pm">2:00PM</option>
+                                    <option value="three-pm">3:00PM</option>
+                                    <option value="four-pm">4:00PM</option>
+                                </select>
+                            </div><!-- end form-group --> 
+
+                        </div>
+
+                        <div class="form-right">
+                            
+                            <div class="form-group number-group">
+                                <label class="sub" id="people">Number of People in Your Group:</label>
+                                    <div class="number-choices">
+                                        <label class="form-row number one-to-three">1-3
+                                            <input type="radio" id="one-to-three" name="number">
+                                            <span class="checkmark"></span>
+                                        </label> 
+                                        
+                                        <label class="form-row number four-to-seven">4-7
+                                            <input type="radio" id="four-to-seven" name="number">
+                                            <span class="checkmark"></span>
+                                        </label> 
+                                    
+                                        <label class="form-row number eight-to-ten">8-10
+                                            <input type="radio" id="eight-to-ten" name="number">
+                                            <span class="checkmark"></span>
+                                        </label>   
+                                    </div>
+                            </div><!-- end form-group -->              
+                        
+                            <div class="form-group activities-group">
+                                <label class="sub" id="activities">Additional Activities:</label>
+                                <div class="activities-choices">
+                                    <label class="form-row activities meet-animals">meet and feed the animals
+                                        <input type="checkbox" id="meet-animals" name="activities">
+                                        <span class="checkmark"></span>
+                                    </label> 
+                                    
+                                    <label class="form-row activities wagon-ride">wagon ride
+                                        <input type="checkbox" id="wagon-ride" name="activities">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    
+                                    <label class="form-row activities horseback-riding">horseback riding
+                                        <input type="checkbox" id="horseback-riding" name="activities">
+                                        <span class="checkmark"></span>
+                                    </label>  
+                                </div>
+                            </div>
+
+                            <div class="form-row comment">
+                                <label class="sub" id="comment">Comment:</label>
+                                <textarea rows="6" name="comment"></textarea>
+                            </div><!-- end form-row -->
+                            
+                        </div>
+                    </div>
+                        <div class="form-button submit">
+                            <input class="sign-up-button" type="submit" value="Submit">
+                        </div>
+                </section>
+            </div>
+
+            <section id="to-do-horseback" class="two-col">
+                <div class="description">
+                    <h2>Horseback Riding</h2>
+                    <p>Horseback riding is one of most popular activities, come ride a beautiful horse and enjoy the scenery of Vancouver. We offer both trail rides and lessons, people of ages and experience levels are welcomed.</p>
+                </div>  
+                <img src="images/horseback-riding.jpg" alt="horsebackriding">
+            </section>
+
+            <section id="farm-dining" class="to-do-intro one-col">
+                <h2>Farm Dining</h2>
+                <p>From farm to table, we uses ingredients that we grew by ourselves or purchased from other local farms to create the most delicious vegal meals. Vegan food is bland you say? Well, that is because you have not tried the ones at the Farm House! Make a reservation now and get ready to be blown away! Check out the dining options by clicking the link below.</p>
+                <p> P.S. Let us know about any food allergies that we should be aware of.</p>
+                <div class="more-btn-thin" id="to-do-dine-button"><a href="dining.html">Dining Options</a></div>
+            </section>
+
+            <div id="dining-form" class="booking-form">
+                <section class="form-content">
+                    <div class="form-header">
+                        <h2>Dine with the Animals</h2>
+                    </div>
+                <div class="flex-form">
+
+                    <div class="form-left dine-left">
+
+                        <div class="form-row name">
+                            <label class="sub" for="name">Name:</label>
+                            <input type="text" id="dine-name" name="name">
+                        </div><!-- end form-row -->
+
+                        <div class="form-row email">
+                            <label class="sub" for="email">Email:</label>
+                            <input type="email" id="dine-email" name="email">
+                        </div><!-- end form-row -->
+
+                        <div class="form-row phone">
+                            <label class="sub" for="phone">Phone Number:</label>
+                            <input type="tel" id="dine-phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                        </div><!-- end form-row -->
+
+                        <div class="form-row date">
+                            <label for="date" id="dine-pick-date">Pick a Date:</label>
+                            <input type="date" id="dine-date" name="date">
+                        </div><!-- end form-row -->
+
+                        <div class="form-group time-group">
+                            <label class="sub" for="time">Pick a Time:</label>
+                            <select name="time" id="dine-time">
+                                <option value="eleven-am">11:00AM</option>
+                                <option value="one-pm">12:00PM</option>
+                                <option value="two-pm">2:00PM</option>
+                                <option value="four-pm">4:00PM</option>
+                                <option value="four-pm">6:00PM</option>
+                            </select>
+                        </div><!-- end form-group -->
+
+                    </div>
+
+                    <div class="form-right">
+
+                        <div class="form-group number-group">
+                            <label class="sub" id="dine-people">Number of People in Your Group:</label>
+                            <div class="number-choices">
+                                <label class="form-row number one-to-three">1-3
+                                    <input type="radio" id="dine-one-to-three" name="number">
+                                    <span class="checkmark"></span>
+                                </label> 
+                                
+                                <label class="form-row number four-to-seven">4-7
+                                    <input type="radio" id="dine-four-to-seven" name="number">
+                                    <span class="checkmark"></span>
+                                </label> 
+                            
+                                <label class="form-row number eight-to-ten">8-10
+                                    <input type="radio" id="dine-eight-to-ten" name="number">
+                                    <span class="checkmark"></span>
+                                </label>   
+                            </div>
+                        </div><!-- end form-group -->
+                        
+                        <div class="form-row comment">
+                            <label class="sub" id="dine-comment">Comment:</label>
+                            <textarea rows="12" id="dine-comment-box" name="comment"></textarea>
+                        </div><!-- end form-row -->
+                    </div>
+                </div>
+                    <div class="form-button submit">
+                        <input class="sign-up-button" type="submit" value="Submit">
+                    </div>
+                </section>
+            </div>
+
+            <section id="to-do-event" class="two-col">
+                <div class="description">
+                    <h2>Large Events</h2>
+                    <p>Thinking about hosting a birthday bash or wedding? We got you covered! We offer event packages that include catering, decorations, equipments, band performance, and much more. Give us a call at (604)434-5734 to book an appointment with one of our in-house event planners.</p>
+                </div> 
+                <img src="images/large-event.jpg" alt="large event">
+            </section>
+
+            <section id="volunteer" class="one-col">
+                <h2>Volunteering</h2>
+                <p>We are always looking for volunteers, anyone that is passionate about animals are encouraged to apply. Currently we have open positions for tour guides and administrative assistant. We provide discounted meals and free entrance to the Farm House, this is a great opportunity for animal lovers who want to be part of great team and to make the world a better place.</p>
+            </section>
+        
+    
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        </main>                         
+
+        <footer class="footer-all">
+            <div class="footer-grid">
+                <div class="footer-contact">
+                    <div class="contact-us">
+                        <h2>Contact</h2>
+                      
+                        
+                        <a href="https://www.google.com/maps/place/BCIT+Downtown+Campus/@49.2834508,-123.1239881,15z/data=!3m1!4b1!4m5!3m4!1s0x54867178c6f02ee1:0xb4e03bf432e66714!8m2!3d49.2834511!4d-123.1152548" target="_blank">
+                        555 Seymour St <br> Vancouver, BC V6B 3H6</a> <!--link to Google Map (possibly BCIT address :))?-->
+                        <br>
+                        <p>+1-604-434-5734</p> 
+                    </div>
+                    <div class="footer-button">
+                        <div class="footer-form">
+                            <input type="checkbox" id="click">
+                            <label class="email-sub" for="click">Subscribe</label>
+                            <div class="email-sub-field">
+                                <input type="email" placeholder="Email Address">
+                                <label class="email-sub-2" for="click">Subscribe</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <nav class="nav-links">
+                    <h2>Explore</h2>
+                    <ul id="footer-nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="visit.html">Plan Your Visit</a></li>
+                        <li><a href="animals.html">Meet the Animals</a></li>
+                        <li><a href="to-do.html">Things to Do</a></li>
+                    </ul>
+                </nav>
+
+                <div class="social-media">
+                    <h2>Follow</h2>
+                    <div class="social-grid">
+                        <div><img src="images/social1.jpg" alt="baby chicks in the grass"></div>
+                        <div><img src="images/social2.jpg" alt="chicken feeding chick"></div>
+                        <div><img src="images/social3.jpg" alt="cow grazing the grass"></div>
+                        <div><img src="images/social4.jpg" alt="horse grazing the grass"></div>
+                        <div><img src="images/social5.jpg" alt="alpaca with lake background"></div>
+                        <div><img src="images/social6.jpg" alt="goat with flowers and hat"></div>
+                    </div>
+                    <div class="social-icons">
+                        <img class="hidden-img" src="images/instagram.png" alt="instagram icon">
+                        <img class="hidden-img" src="images/facebook.png" alt="facebook icon">
+                        <img class="hidden-img" src="images/linkedin.png" alt="linkedin icon">
+                    </div>
+                
+                </div>
+            </div>
+
+            <hr>
+
+                <div class="bottom-footer">
+                    <span class="copywrite">&copy; 2020 The Farm House</span>
+                    <br>
+                    <span class="educational">For Educational Purpose Only</span>
+                </div>
+        
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/scroll-to-top.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="scripts/carousel.js"></script> 
+</body>
+</html>
