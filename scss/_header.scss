@@ -1,0 +1,106 @@
+// image banner (includes home and usb pages)
+
+.image-banner img{
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    filter: brightness(45%);
+}
+
+.image-banner-sub img{
+    object-fit: cover;
+    height: 50vh;
+    width: 100vw;
+    filter: brightness(55%);
+}
+
+// text overlay on image banner
+
+.banner-text{
+    position: absolute;
+    bottom: 50px;
+    left:50px;
+    z-index: 1;
+    width: 230px;
+}
+
+.banner-text p{
+    margin-top: 0px;
+}
+
+.banner-text h1{
+    margin-bottom: 15px;
+}
+
+.banner-text hr{
+    border-top: 1px solid white;
+}
+
+.banner-text-sub{
+    position: absolute;
+    top: 40vh;
+    left:50vw;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.more-btn-pink a{
+    padding: 13px;
+    cursor: pointer;
+    display: block;
+}
+
+.more-btn-pink{
+    background-color: #E7D3CA;
+    border: 1px solid #E7D3CA;
+    margin-top: 12px;
+    width: 200px;
+}
+
+
+// hover effects
+
+.more-btn-pink a:hover, .more-btn a:active {
+color: white;
+}
+
+.more-btn-pink:hover, .more-btn:active{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+// media queries
+
+@media (min-width: 670px){
+    
+    .banner-text{
+        bottom: 50px;
+        left:50px;
+        width: 530px;
+    }
+
+    .banner-text-sub{
+        top:35vh;
+        left:50vw;
+    }
+}
+
+
+@media (min-width: 1000px){
+    
+    .banner-text{
+        bottom: 100px;
+        left: 100px;
+        width: 650px;
+    }
+
+    .banner-text-sub{
+        top:35vh;
+        left:50vw;
+    }
+
+
+
+}
+
+

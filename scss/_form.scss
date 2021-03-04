@@ -1,0 +1,119 @@
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+.booking-form {
+    padding: 10px 0;
+}
+.form-content {
+    margin:0 auto;
+    font-family: 'Roboto', sans-serif;
+    min-width: 320px;
+    max-width: 350px;
+    background-color: $pinkLight;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 5px $brownDark;
+    padding: 20px 20px 20px 20px;
+}
+.form-header {
+    text-align: center;
+}
+.number, .activities {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.number input, .activities input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.number .checkmark, .activities .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    margin-top: 1px;
+    background-color: white;   
+}
+.number .checkmark {
+    border-radius: 50%;
+}
+.activities .checkmark {
+    border-radius: 3px;
+}
+.number:hover input ~ .checkmark,
+.activities:hover input ~ .checkmark {
+    background-color: $brownLight;
+}
+.number input:checked ~ .checkmark,
+.activities input:checked ~ .checkmark {
+    background-color: $brownDark;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.number input:checked ~ .checkmark:after,
+.activities input:checked ~ .checkmark:after {
+    display: block;
+}
+.number .checkmark:after {
+   top: 5px;
+   left: 5px;
+   width: 5.3px;
+   height: 5.3px;
+   border-radius: 50%;
+   background: white;
+}
+.activities .checkmark:after {
+    top: 2px;
+    left: 6px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.name input,
+.email input,
+.phone input,
+.date input,
+.comment textarea,
+.time-group select {
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+    padding: 10px 5px;
+    margin-bottom: 15px;
+    background-color: white;
+    border-color: transparent;
+    resize: none;
+}
+.number-choices, 
+.activities-choices {
+    margin: 15px;
+}
+.form-button input {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+    background-color: $brownDark;
+    border-color: transparent;
+    cursor: pointer;
+}

@@ -1,0 +1,89 @@
+// explore more buttons for content
+
+main .more-btn{
+    background-color: transparent;
+    border: 1px solid #272727;
+}
+
+main .more-btn-thin{
+    background-color: transparent;
+    border: 1px solid #272727;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+}
+
+
+// hover effects
+
+main .more-btn:hover, section .more-btn:active{
+    background-color: #e7d3ca;
+    border: 1px solid #e7d3ca;
+}
+
+main .more-btn-thin:hover, section .more-btn-thin:active{
+    background-color: #e7d3ca;
+    border: 1px solid #e7d3ca;
+}
+
+main .more-btn a:hover, section .more-btn a:active{
+    color: black;
+}
+
+main .more-btn-thin a:hover, section .more-btn-thin a:active{
+    color: black;
+}
+
+// explore more buttons for content
+
+main .more-btn{
+    background-color: transparent;
+    border: 1px solid #272727;
+}
+
+main .more-btn-thin{
+    background-color: transparent;
+    border: 1px solid #272727;
+}
+
+
+// scroll to top button
+
+#myBtn {
+    display: none; 
+    position: fixed;
+    bottom: 20px; 
+    right: 15px;
+    z-index: 9999; 
+    border: none;
+    outline: none; 
+    background-color:#E7D3CA;
+    color: black;
+    padding: 15px; 
+    border: 1px solid white;
+    border-radius: 10px; 
+    font-size: 1.0em; 
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+}
+
+// hover effects
+
+main .more-btn:hover, section .more-btn:active{
+    background-color: #e7d3ca;
+    border: 1px solid #e7d3ca;
+}
+
+main .more-btn:hover, section .more-btn:active{
+    background-color: #e7d3ca;
+    border: 1px solid #e7d3ca;
+}
+
+main .more-btn a:hover, section .more-btn-thin a:active{
+    color: black;
+}
+
+main .more-btn-thin a:hover, section .more-btn-thin a:active{
+    color: black;
+}
+
